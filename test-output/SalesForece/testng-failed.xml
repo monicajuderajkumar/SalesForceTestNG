@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SalesForece]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="SDLC Login(failed)">
+    <classes>
+      <class name="com.salesForce.Test.SDLCLoginTest">
+        <methods>
+          <include name="loginErrorMsg"/>
+          <include name="inCorrectCredentialErrorMsg"/>
+          <include name="tearDown"/>
+          <include name="forgotPsw"/>
+          <include name="passDriver"/>
+          <include name="loginToSalesForce"/>
+          <include name="checkRememberMe"/>
+        </methods>
+      </class> <!-- com.salesForce.Test.SDLCLoginTest -->
+    </classes>
+  </test> <!-- SDLC Login(failed) -->
+</suite> <!-- Failed suite [SalesForece] -->

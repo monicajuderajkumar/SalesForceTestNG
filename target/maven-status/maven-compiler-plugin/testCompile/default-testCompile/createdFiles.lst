@@ -1,0 +1,7 @@
+com\salesForce\Pages\SDLCLoginPage.class
+com\salesForce\Test\HomeTest.class
+com\salesForce\Pages\ForgorPswPage.class
+com\salesForce\Pages\MyProfilePage.class
+com\salesForce\Pages\CheckYourEmailPage.class
+com\salesForce\Pages\HomePage.class
+com\salesForce\Test\SDLCLoginTest.class
