@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.salesForce.Test.HomeTest">
+      <class name="com.salesForce.Test.SDLCLoginTest">
         <methods>
-          <include name="myProfileChanges"/>
-          <include name="passDriver"/>
           <include name="tearDown"/>
+          <include name="inCorrectCredentialErrorMsgExcelinvalid"/>
+          <include name="passDriver"/>
         </methods>
-      </class> <!-- com.salesForce.Test.HomeTest -->
+      </class> <!-- com.salesForce.Test.SDLCLoginTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

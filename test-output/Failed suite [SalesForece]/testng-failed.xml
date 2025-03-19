@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Failed suite [SalesForece]]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.saslesForce.Utilities.customListeners"/>
+  </listeners>
+  <test thread-count="5" name="SDLC Login(failed)(failed)">
+    <classes>
+      <class name="com.salesForce.Test.SDLCLoginTest">
+        <methods>
+          <include name="loginErrorMsg"/>
+          <include name="tearDown"/>
+          <include name="passDriver"/>
+        </methods>
+      </class> <!-- com.salesForce.Test.SDLCLoginTest -->
+    </classes>
+  </test> <!-- SDLC Login(failed)(failed) -->
+  <test thread-count="5" name="User Menu Drop Down(failed)(failed)">
+    <classes>
+      <class name="com.salesForce.Test.MyProfileTest">
+        <methods>
+          <include name="verifyProfileName"/>
+          <include name="myProfileChanges"/>
+          <include name="tearDown"/>
+          <include name="editLastNameProfile"/>
+          <include name="passDriver"/>
+        </methods>
+      </class> <!-- com.salesForce.Test.MyProfileTest -->
+      <class name="com.salesForce.Test.MySettingTest">
+        <methods>
+          <include name="passDriver"/>
+          <include name="mySettingChanges"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.salesForce.Test.MySettingTest -->
+    </classes>
+  </test> <!-- User Menu Drop Down(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [SalesForece]] -->

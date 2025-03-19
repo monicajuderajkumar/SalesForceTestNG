@@ -1,10 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
-<suite name="SalesForece">
-  <test name="SDLC Login">
+<!--<suite name="SalesForce" thread-count="3"    parallel="methods"  preserve-order="true"> -->
+
+<suite name="SalesForce" thread-count="2" parallel="methods" preserve-order="true">
+
+<listeners>
+<listener class-name="com.SalesForce.Listener.customListeners"/>
+</listeners>
+
+  <!-- <test name="SDLC Login" thread-count="3"    parallel="methods" >-->
+  
+  <test name="SDLC Login" thread-count="2" parallel="methods">
+ 
+ <!-- <groups>
+  <run>
+  <include name="Smoke"/>
+  </run>
+  </groups>-->
+  
       <classes>
-         <class name="com.salesForce.Test.SDLCLoginTest"/>
+         <class name="com.salesForce.Test.SDLCLoginTest"/> 
+         <!-- <class name="com.salesForce.Test.ParallelRun"/>-->
       </classes>
-  </test>      
+  </test>   
 </suite> 

@@ -13,15 +13,20 @@ import org.openqa.selenium.WebDriver;
 
 public class ScreenShot {
 
-
+	//WebDriver driver;
 	
-	public void takequickScreenShot(WebDriver driver) {
+	//public ScreenShot(WebDriver driver) {
+	//	super(driver);	
+	//}
+	
+	public String takequickScreenShot(WebDriver driver, String TestCaseName) {
+
 		TakesScreenshot screenshot = ((TakesScreenshot)driver);
 		File scrFile = screenshot.getScreenshotAs(OutputType.FILE);
 		String ProjDir = System.getProperty("user.dir");
 		Date currentDate = new Date();
 		String date = new SimpleDateFormat("YYYY-MM-dd HH.mm.ss").format(currentDate);
-		String filePath = ProjDir +"\\ScreenShot\\SS"+date+".png";
+		String filePath = ProjDir +"\\ScreenShot\\" +TestCaseName+date+".png";
 		System.out.println(filePath);
 		File desFile = new File(filePath);
 		try {
@@ -31,6 +36,9 @@ public class ScreenShot {
 			e.printStackTrace();
 		}
 		
+		return filePath;
+		
+	
 	}
 	/*public static void main(String[] args) {
 		String ProjDir = System.getProperty("user.dir");

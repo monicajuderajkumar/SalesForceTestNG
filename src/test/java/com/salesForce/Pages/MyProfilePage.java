@@ -14,6 +14,15 @@ public class MyProfilePage extends BasePage{
    
    @FindBy(xpath="//img[@alt='Edit Profile']")
 	WebElement editProfile;
+   
+   @FindBy(css="span#tailBreadcrumbNode")
+  	WebElement UsernameProfile;
+   
+   public String getUserNameProfilePg() {
+		explicitWait(UsernameProfile);
+		String userNameMyProfile = UsernameProfile.getText().trim();
+		return userNameMyProfile;
+	}
 	
 	@FindBy(xpath="//div[@id='contactInfo']//h2[@id='contactInfoTitle']")
 	WebElement editProfileText;

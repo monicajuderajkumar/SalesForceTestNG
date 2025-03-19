@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="34.091" tests="5" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="46.908" tests="5" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="webdriver.chrome.driver" value="C:\Users\Monica Jude\.cache\selenium\chromedriver\win64\131.0.6778.108\chromedriver.exe"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
-    <property name="sun.java.command" value="C:\Users\Monica Jude\AppData\Local\Temp\surefire8719277713015098563\surefirebooter-20241214225617931_3.jar C:\Users\Monica Jude\AppData\Local\Temp\surefire8719277713015098563 2024-12-14T22-56-17_591-jvmRun1 surefire-20241214225617931_1tmp surefire_0-20241214225617931_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\Monica Jude\AppData\Local\Temp\surefire18426256251881604223\surefirebooter-20241216101800396_3.jar C:\Users\Monica Jude\AppData\Local\Temp\surefire18426256251881604223 2024-12-16T10-17-59_765-jvmRun1 surefire-20241216101800396_1tmp surefire_0-20241216101800396_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Workspace\com.testNGFrameWork.SalesForce\target\test-classes;C:\Workspace\com.testNGFrameWork.SalesForce\target\classes;C:\Users\Monica Jude\.m2\repository\org\projectlombok\lombok\1.18.24\lombok-1.18.24.jar;C:\Users\Monica Jude\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\Monica Jude\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\Monica Jude\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\Monica Jude\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\Monica Jude\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\Monica Jude\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\Monica Jude\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\Monica Jude\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\Monica Jude\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\Monica Jude\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\Monica Jude\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Monica Jude\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Monica Jude\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Monica Jude\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Monica Jude\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Monica Jude\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Monica Jude\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Monica Jude\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Monica Jude\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\Monica Jude\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Monica Jude\.m2\repository\io\github\bonigarcia\webdrivermanager\5.9.2\webdrivermanager-5.9.2.jar;C:\Users\Monica Jude\.m2\repository\org\slf4j\slf4j-api\2.0.13\slf4j-api-2.0.13.jar;C:\Users\Monica Jude\.m2\repository\com\google\code\gson\gson\2.11.0\gson-2.11.0.jar;C:\Users\Monica Jude\.m2\repository\com\github\docker-java\docker-java\3.4.0\docker-java-3.4.0.jar;C:\Users\Monica Jude\.m2\repository\com\github\docker-java\docker-java-core\3.4.0\docker-java-core-3.4.0.jar;C:\Users\Monica Jude\.m2\repository\com\github\docker-java\docker-java-api\3.4.0\docker-java-api-3.4.0.jar;C:\Users\Monica Jude\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\Monica Jude\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\Monica Jude\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\Monica Jude\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\Monica Jude\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.4.0\docker-java-transport-httpclient5-3.4.0.jar;C:\Users\Monica Jude\.m2\repository\com\github\docker-java\docker-java-transport\3.4.0\docker-java-transport-3.4.0.jar;C:\Users\Monica Jude\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\Monica Jude\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\Monica Jude\.m2\repository\org\apache\commons\commons-lang3\3.15.0\commons-lang3-3.15.0.jar;C:\Users\Monica Jude\.m2\repository\org\apache\commons\commons-compress\1.26.2\commons-compress-1.26.2.jar;C:\Users\Monica Jude\.m2\repository\commons-codec\commons-codec\1.17.0\commons-codec-1.17.0.jar;C:\Users\Monica Jude\.m2\repository\commons-io\commons-io\2.16.1\commons-io-2.16.1.jar;C:\Users\Monica Jude\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\Monica Jude\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\Monica Jude\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\Monica Jude\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\Monica Jude\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Monica Jude\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\Monica Jude\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\Monica Jude\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\Monica Jude\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\Monica Jude\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\Monica Jude\.m2\repository\log4j\log4j\1.2.16\log4j-1.2.16.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Monica Jude\AppData\Local\Temp\surefire8719277713015098563\surefirebooter-20241214225617931_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Monica Jude\AppData\Local\Temp\surefire18426256251881604223\surefirebooter-20241216101800396_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.12+8-LTS-286"/>
@@ -57,7 +57,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="inCorrectCredentialErrorMsg" classname="com.salesForce.Test.SDLCLoginTest" time="3.111">
+  <testcase name="inCorrectCredentialErrorMsg" classname="com.salesForce.Test.SDLCLoginTest" time="2.511">
     <system-out><![CDATA[monica@mjr.com
 Jesus@25
 Step 1: As soon as test is triggered @BeforeMethod is called 
@@ -75,15 +75,15 @@ Please check your username and password. If you still can't log in, contact your
     <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
 SLF4J(W): Defaulting to no-operation (NOP) logger implementation
 SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
-Starting ChromeDriver 131.0.6778.108 (3b014839fbc4fb688b2f5af512d6ce312ad208b1-refs/branch-heads/6778@{#2393}) on port 27270
+Starting ChromeDriver 131.0.6778.108 (3b014839fbc4fb688b2f5af512d6ce312ad208b1-refs/branch-heads/6778@{#2393}) on port 60513
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully on port 27270.
-Dec 14, 2024 10:56:21 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+ChromeDriver was started successfully on port 60513.
+Dec 16, 2024 10:18:07 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="loginErrorMsg" classname="com.salesForce.Test.SDLCLoginTest" time="2.335">
+  <testcase name="loginErrorMsg" classname="com.salesForce.Test.SDLCLoginTest" time="2.458">
     <system-out><![CDATA[Step 5: @AfterTestMethod is called to close the browser
 Step 1: As soon as test is triggered @BeforeMethod is called 
 Step 2:Base Test Java class is called with the browser from the test class
@@ -97,15 +97,15 @@ Step 3: PageFactory
 Step 4: @Test Test Case 1 -loginToError method is called
 Please enter your password.
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 131.0.6778.108 (3b014839fbc4fb688b2f5af512d6ce312ad208b1-refs/branch-heads/6778@{#2393}) on port 27512
+    <system-err><![CDATA[Starting ChromeDriver 131.0.6778.108 (3b014839fbc4fb688b2f5af512d6ce312ad208b1-refs/branch-heads/6778@{#2393}) on port 29969
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully on port 27512.
-Dec 14, 2024 10:56:27 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+ChromeDriver was started successfully on port 29969.
+Dec 16, 2024 10:18:14 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="loginToSalesForce" classname="com.salesForce.Test.SDLCLoginTest" time="5.717">
+  <testcase name="loginToSalesForce" classname="com.salesForce.Test.SDLCLoginTest" time="5.91">
     <system-out><![CDATA[Step 5: @AfterTestMethod is called to close the browser
 Step 1: As soon as test is triggered @BeforeMethod is called 
 Step 2:Base Test Java class is called with the browser from the test class
@@ -122,15 +122,15 @@ Password is: Jesus@25
 true
 Build App
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 131.0.6778.108 (3b014839fbc4fb688b2f5af512d6ce312ad208b1-refs/branch-heads/6778@{#2393}) on port 45864
+    <system-err><![CDATA[Starting ChromeDriver 131.0.6778.108 (3b014839fbc4fb688b2f5af512d6ce312ad208b1-refs/branch-heads/6778@{#2393}) on port 53130
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully on port 45864.
-Dec 14, 2024 10:56:31 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+ChromeDriver was started successfully on port 53130.
+Dec 16, 2024 10:18:20 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="checkRememberMe" classname="com.salesForce.Test.SDLCLoginTest" time="6.721">
+  <testcase name="checkRememberMe" classname="com.salesForce.Test.SDLCLoginTest" time="9.97">
     <system-out><![CDATA[Step 5: @AfterTestMethod is called to close the browser
 Step 1: As soon as test is triggered @BeforeMethod is called 
 Step 2:Base Test Java class is called with the browser from the test class
@@ -146,15 +146,15 @@ true
 Actual Username is:monica@mjr.com
 Attribut Checked Value After clicktrue
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 131.0.6778.108 (3b014839fbc4fb688b2f5af512d6ce312ad208b1-refs/branch-heads/6778@{#2393}) on port 57580
+    <system-err><![CDATA[Starting ChromeDriver 131.0.6778.108 (3b014839fbc4fb688b2f5af512d6ce312ad208b1-refs/branch-heads/6778@{#2393}) on port 14378
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully on port 57580.
-Dec 14, 2024 10:56:39 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+ChromeDriver was started successfully on port 14378.
+Dec 16, 2024 10:18:30 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="forgotPsw" classname="com.salesForce.Test.SDLCLoginTest" time="2.643">
+  <testcase name="forgotPsw" classname="com.salesForce.Test.SDLCLoginTest" time="2.29">
     <system-out><![CDATA[Step 5: @AfterTestMethod is called to close the browser
 Step 1: As soon as test is triggered @BeforeMethod is called 
 Step 2:Base Test Java class is called with the browser from the test class
@@ -167,11 +167,11 @@ Step 3: PageFactory
 Step 3: PageFactory
 Test Case 4A - forgotPsw method is called
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 131.0.6778.108 (3b014839fbc4fb688b2f5af512d6ce312ad208b1-refs/branch-heads/6778@{#2393}) on port 46917
+    <system-err><![CDATA[Starting ChromeDriver 131.0.6778.108 (3b014839fbc4fb688b2f5af512d6ce312ad208b1-refs/branch-heads/6778@{#2393}) on port 11549
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully on port 46917.
-Dec 14, 2024 10:56:48 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+ChromeDriver was started successfully on port 11549.
+Dec 16, 2024 10:18:43 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>

@@ -7,9 +7,14 @@ import org.openqa.selenium.support.FindBy;
 import com.SalesForce.Base.BasePage;
 
 public class SDLCLoginPage extends BasePage{
+	//If u need driver for SDLCLogin Page
+	WebDriver driver;
 	
 	public SDLCLoginPage(WebDriver driver) {
 		super(driver);	
+		//If u need driver for SDLCLogin Page
+		//(homepg obj creation to pass driver on clicking login)
+		this.driver = driver;
 	}
 
 	@FindBy(id="username")
@@ -48,6 +53,7 @@ public class SDLCLoginPage extends BasePage{
 	
 	public String verifyErrorMsg() {
 		explicitWait(errorMsg);
+		
 		String actualincorrectCredErrorMsg = errorMsg.getText();
 		System.out.println(actualincorrectCredErrorMsg);
 		return actualincorrectCredErrorMsg;
@@ -67,9 +73,11 @@ public class SDLCLoginPage extends BasePage{
 		password.sendKeys(passwordValue);
 	}
 	
-	public void clickLogin() {
+	public HomePage clickLogin() {
 		explicitWait(loginButton);
 		loginButton.click();
+		HomePage homePg = new HomePage(this.driver);
+		return homePg;
 	}
 	
 	public void clearPassword() {
@@ -99,5 +107,10 @@ public class SDLCLoginPage extends BasePage{
 		String actualusername = savedUserName.getText();
 		System.out.println("Actual Username is:" + actualusername);
 		return actualusername;
+	}
+	
+	public boolean LogInButtonisDisplayed() {
+		explicitWait(loginButton);
+		return loginButton.isDisplayed();
 	}
 }

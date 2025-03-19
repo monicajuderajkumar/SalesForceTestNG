@@ -24,15 +24,17 @@ public class HomeTest extends BaseTest{
 	String picpath ="C:/Users/Monica Jude/Desktop/TekArch/MyPic.PNG";
 	
 	
+
 	@BeforeMethod
 	public void passDriver() {
 		System.out.println("Step 1: As soon as test is triggered @BeforeMethod is called ");
-	driver = getDriver();
+	driver = lauchApplication();
 	homePg = new HomePage(driver);
 	loginPage  = new SDLCLoginPage(driver);
 	profilePg = new MyProfilePage(driver);
 	}
-	
+
+
 	@Test
 	public void UserMenuDropDown() {
 		loginPage.enterUsername(usernamevalue);	
@@ -45,7 +47,19 @@ public class HomeTest extends BaseTest{
 		Assert.assertTrue(menuListFlag, "User Menu is not displayed correctly");
 	}
 
-	
+	@Test
+	public void logoutApplication() {
+		
+		loginPage.enterUsername(usernamevalue);
+		loginPage.enterPassword(pswValue);
+		loginPage.clickLogin();
+		Boolean homeTabDisplayed =homePg.HomeTabDisplayed();
+		Assert.assertTrue(homeTabDisplayed);
+		homePg.clickUserMenu();
+		homePg.clickLogout();
+		Boolean isButtonDisplayed = loginPage.LogInButtonisDisplayed();
+		Assert.assertTrue(isButtonDisplayed);
+	}
 	@AfterMethod
 	public void tearDown() {
 		System.out.println("Step 5: @AfterTestMethod is called to close the browser");
