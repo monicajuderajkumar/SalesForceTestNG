@@ -29,7 +29,7 @@ public  class ExcelReader {
 	 static ArrayList<String> arr;
 	 static int rowCount;
 	 
-	public static ArrayList<String> readDataFromExcel(String givenSheetName) throws Exception {
+	public static Object[][] readDataFromExcel(String givenSheetName) throws Exception {
 		
 		ArrayList<String> arr = new ArrayList<String>();
 		System.out.println("Sheet Name*****: "+ givenSheetName);
@@ -66,7 +66,6 @@ public  class ExcelReader {
 		    				System.out.println("TestCase Name: "+ wsheet.getRow(x+1).getCell(a));
 		    				if (wsheet.getRow(x+1).getCell(a).getStringCellValue().equalsIgnoreCase("invalidLogin")) {
 		    	//7. To get the row - col values 
-		    					int newrowCount=1;
 		    					
 		    					
 		    					colcount = wsheet.getRow(x+1).getPhysicalNumberOfCells();
@@ -92,14 +91,9 @@ public  class ExcelReader {
 		    }
 		    }
 		  //System.out.println("****" + finaldata.length);
-		  System.out.println("****" + arr.size());
-		  System.out.println("****" + arr.get(0));
-		  System.out.println("****" + arr.get(1));
-		  System.out.println("*RowCount*" + rowCount);
-		  System.out.println("*ColCount*" + colcount);
-		  Object obj[][] = new Object[rowCount-1][colcount];	
 		 
-		    return arr;	
+		 
+		    return finaldata;	
 	}
 	
 	
