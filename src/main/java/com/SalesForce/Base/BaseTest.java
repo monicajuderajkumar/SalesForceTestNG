@@ -26,6 +26,7 @@ public class BaseTest {
 
 	//Commit 1
 	//Commit 2
+	// Feature_code_2- commit 1 - Initialize webdriver
 	public static WebDriver driver;
 	ReadPropertiesFile readPropFile;
 	ScreenShot ss; 
