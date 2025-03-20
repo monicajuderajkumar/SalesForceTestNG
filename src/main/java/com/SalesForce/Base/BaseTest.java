@@ -24,7 +24,8 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 public class BaseTest {
 
-	//WebDriver
+	//Commit 1
+	//Commit 2
 	public static WebDriver driver;
 	ReadPropertiesFile readPropFile;
 	ScreenShot ss; 
