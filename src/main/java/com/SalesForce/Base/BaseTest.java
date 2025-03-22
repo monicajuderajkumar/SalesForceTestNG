@@ -34,6 +34,7 @@ public class BaseTest {
 	public Logger log;
 	public static ThreadLocal<WebDriver> threadDriver = new ThreadLocal<WebDriver>();
 	
+	//Launch browser - feature code
 	public WebDriver lauchApplication() {
 	
 	 log= LogManager.getLogger(BaseTest.class.getClass());
