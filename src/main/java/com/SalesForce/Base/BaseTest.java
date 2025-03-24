@@ -24,6 +24,14 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 public class BaseTest {
 
+	//Commit 1
+	//Commit 2
+	// Feature_code_2- commit 1 - Initialize webdriver
+
+	//Base Test - Main Branch commit
+
+	// Feature_code_2 - Final Commit
+
 	public static WebDriver driver;
 	ReadPropertiesFile readPropFile;
 	ScreenShot ss; 

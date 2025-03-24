@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\GITRepo\SalesForceTestNG"/>
 			<item value="C:\Workspace\com.testNGFrameWork.SalesForce"/>
 		</list>
 		<list key="projectNameTemplate">
