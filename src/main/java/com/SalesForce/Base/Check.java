@@ -6,6 +6,7 @@ public class Check {
 		// TODO Auto-generated method stub
 
 		System.out.println("Git Commit - Main Branch");
+		System.out.println("Git Commit - Main Branch - Commit 2");
 	}
 
 }
