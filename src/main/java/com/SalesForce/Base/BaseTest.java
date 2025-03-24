@@ -3,6 +3,7 @@ package com.SalesForce.Base;
 import java.io.File;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
+import java.time.Duration;
 import java.util.Date;
 import java.util.HashMap;
 
@@ -27,7 +28,11 @@ public class BaseTest {
 	//Commit 1
 	//Commit 2
 	// Feature_code_2- commit 1 - Initialize webdriver
+
+	//Base Test - Main Branch commit
+
 	// Feature_code_2 - Final Commit
+
 	public static WebDriver driver;
 	ReadPropertiesFile readPropFile;
 	ScreenShot ss; 
@@ -37,6 +42,8 @@ public class BaseTest {
 	String pathToDownload = projDir +"\\Downloads";
 	public Logger log;
 	public static ThreadLocal<WebDriver> threadDriver = new ThreadLocal<WebDriver>();
+	
+	//Launch browser - feature code- DAy1
 	
 	public WebDriver lauchApplication() {
 	
