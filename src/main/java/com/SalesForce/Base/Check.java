@@ -7,7 +7,14 @@ public class Check {
 
 		System.out.println("Git Commit - Main Branch");
 		System.out.println("Git Commit - Main Branch - Commit 2");
+<<<<<<< HEAD
 		System.out.println("GIT STASH");
+=======
+		//GIT DIUFF
+		System.out.println("Git Commit - Diff");
+		//GIT STASH
+		System.out.println("Git Stash POP");
+>>>>>>> feature_code_2
 	}
 
 }
