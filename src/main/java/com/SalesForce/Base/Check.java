@@ -7,6 +7,7 @@ public class Check {
 
 		System.out.println("Git Commit - Main Branch");
 		System.out.println("Git Commit - Main Branch - Commit 2");
+		System.out.println("GIT STASH");
 	}
 
 }
