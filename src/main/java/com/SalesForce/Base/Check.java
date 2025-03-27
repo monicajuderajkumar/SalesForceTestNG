@@ -14,6 +14,8 @@ public class Check {
 		System.out.println("Git Commit - Diff");
 		//GIT STASH
 		System.out.println("Git Stash POP");
+		//Git reset
+		System.out.println("Commit is made in GIT Repo");
 
 	}
 
