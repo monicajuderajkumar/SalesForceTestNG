@@ -14,6 +14,7 @@ public class BaseTheory {
 		//New
 		//GIT STASH- 
 		//Git Stash Pop
+		//Adding new commit directly in git hub remote repository
 
 	}
 
