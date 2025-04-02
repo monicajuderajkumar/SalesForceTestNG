@@ -16,7 +16,8 @@ public class Check {
 		System.out.println("Git Stash POP");
 		//Git reset
 		System.out.println("Commit is made in GIT Repo");
-
+// Github remote repo commit
+	System.out.println(" Github remote repo commit");	
 	}
 
 }
