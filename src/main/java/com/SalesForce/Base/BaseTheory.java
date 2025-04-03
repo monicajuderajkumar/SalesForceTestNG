@@ -15,7 +15,11 @@ public class BaseTheory {
 		//GIT STASH- 
 		//Git Stash Pop
 		//Adding new commit directly in git hub remote repository
+
 		System.out.println("I am happy");
+
+System.out.println("Adding Conflict- GIt pull");
+
 	}
 
 }
